@@ -2,12 +2,18 @@
   "name": "cypress-starter",
   "version": "1.0.0",
   "description": "> Example Cypress with TypeScript",
+  "license": "MIT",
+  "author": "2BAD (https://github.com/2BAD)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "prettier": {
+    "printWidth": 100,
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "none"
+  },
   "devDependencies": {
     "@types/node": "18.11.9",
     "cypress": "11.2.0",
