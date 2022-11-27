@@ -2,8 +2,19 @@
   "name": "cypress-starter",
   "version": "1.0.0",
   "description": "> Example Cypress with TypeScript",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/2BAD/cypress-starter.git"
+  },
   "license": "MIT",
   "author": "2BAD (https://github.com/2BAD)",
+  "contributors": [
+    {
+      "name": "Jason Hyde",
+      "email": "github@2bad.me",
+      "url": "https://github.com/mrhyde"
+    }
+  ],
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
