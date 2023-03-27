@@ -7,11 +7,13 @@ ignorePatterns:
 
 plugins:
   - '@typescript-eslint'
+  - 'cypress'
 
 extends:
   - 'eslint:recommended'
   - 'plugin:@typescript-eslint/recommended'
   - 'plugin:@typescript-eslint/recommended-requiring-type-checking'
+  - 'plugin:cypress/recommended'
   - 'plugin:prettier/recommended'
 
 rules:
