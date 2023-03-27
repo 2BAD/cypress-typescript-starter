@@ -16,6 +16,10 @@
 // Import commands.js using ES2015 syntax:
 import './commands'
 import './routes'
+
+import 'cypress-each'
+import 'cypress-plugin-steps'
+import 'cypress-map'
 import compareSnapshotCommand from 'cypress-visual-regression/dist/command'
 import registerCypressGrep from '@cypress/grep/src/support'
 
