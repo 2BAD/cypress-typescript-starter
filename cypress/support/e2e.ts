@@ -16,6 +16,12 @@
 // Import commands.js using ES2015 syntax:
 import './commands'
 import './routes'
+import compareSnapshotCommand from 'cypress-visual-regression/dist/command'
+import registerCypressGrep from '@cypress/grep/src/support'
+
+compareSnapshotCommand()
+// eslint-disable-next-line @typescript-eslint/no-unsafe-call
+registerCypressGrep()
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
