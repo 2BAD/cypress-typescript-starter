@@ -45,6 +45,7 @@
     "cypress-each": "1.13.1",
     "cypress-multi-reporters": "1.6.3",
     "cypress-repeat": "2.3.3",
+    "cypress-visual-regression": "3.0.0",
     "eslint": "8.36.0",
     "eslint-config-prettier": "8.8.0",
     "eslint-plugin-cypress": "2.12.1",
