@@ -1,1 +1,1 @@
-> Example Cypress with TypeScript
+> Cypress automation framework skeleton with Typescript
