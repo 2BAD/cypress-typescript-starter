@@ -1,6 +1,6 @@
 {
   "extends": "@tsconfig/cypress/tsconfig.json",
   "compilerOptions": {
-    "types": ["cypress", "cypress-visual-regression"]
+    "types": ["node", "cypress", "cypress-visual-regression"]
   }
 }
