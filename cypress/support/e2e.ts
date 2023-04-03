@@ -20,9 +20,10 @@ import './routes'
 import 'cypress-each'
 import 'cypress-plugin-steps'
 import 'cypress-map'
-import compareSnapshotCommand from 'cypress-visual-regression/dist/command'
-import registerCypressGrep from '@cypress/grep/src/support'
+import * as compareSnapshotCommand from 'cypress-visual-regression/dist/command'
+import * as registerCypressGrep from '@cypress/grep/src/support'
 
+// @ts-expect-error ignore error because we importing an entire module into namespace
 compareSnapshotCommand()
 // eslint-disable-next-line @typescript-eslint/no-unsafe-call
 registerCypressGrep()

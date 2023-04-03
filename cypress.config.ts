@@ -1,5 +1,5 @@
 import { defineConfig } from 'cypress'
-import getCompareSnapshotsPlugin from 'cypress-visual-regression/dist/plugin'
+import * as getCompareSnapshotsPlugin from 'cypress-visual-regression/dist/plugin'
 
 export default defineConfig({
   env: {
@@ -18,6 +18,7 @@ export default defineConfig({
     setupNodeEvents(on, config) {
       // eslint-disable-next-line
       require('@cypress/grep/src/plugin')(config)
+      // @ts-expect-error ignore error because we importing an entire module into namespace
       getCompareSnapshotsPlugin(on, config)
       return config
     }
