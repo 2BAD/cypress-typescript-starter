@@ -42,3 +42,7 @@ coverage
 ## API keys and secrets
 .env
 cypress.env.json
+
+## Cypress
+/cypress/snapshots/*
+!/cypress/snapshots/base/
